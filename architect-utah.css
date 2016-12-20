@@ -1,0 +1,135 @@
+body {
+    text-align: center;
+    background-color:#000000;
+    color: #FFFFFF;
+    font-family: "Helvetica", "Arial", "Trebuchet MS", "Lucida Sans";
+    font-size: 13pt;
+    overflow: scroll;
+}
+a:hover {
+    color: #FFFFFF;
+}
+a {
+    color: #67a;
+}
+#loading {
+    margin: 100px 400px 400px 400px;
+}
+#container {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+    text-align: left;
+}
+#content {
+    position: relative;
+}
+#main {
+    top: 0px;
+    z-index: 8;
+    padding: 10px 100px 0px 100px;
+}
+#header {
+    height: 40px;
+    padding: 10px 20px 10px 20px;
+    font-family: "Monotype Corsiva", "Helvetica", "Lucida Sans";
+    font-size: 20pt;
+    background-color: #444444;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+#footer, #contact-line {
+    margin-top: 15px;
+    padding: 1px;
+    font-size: 8pt;
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+#contact-line {
+	margin-top: 3px;
+	text-align: left;
+	letter-spacing: 2px;
+}
+#nav {
+    font-size: 12pt;
+    text-align: left;
+    margin-bottom: 10px;
+}
+#nav a {
+    color: #000000;
+}
+#nav table tr td {
+    padding: 6px 30px 6px 30px;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 10pt;
+}
+#nav:hover {
+    cursor: pointer;
+}
+#c1 {
+    left: 25px;
+    top: 100px;
+    z-index: 1;
+}
+#c2 {
+    left: 175px;
+    top: 20px;
+    z-index : 2;
+}
+#c3 {
+    left: 400px;
+    top: 60px;
+    z-index : 3;
+}
+#c4 {
+    left: 600px;
+    top: 100px;
+    z-index : 4;
+}
+#c5 {
+    left: 75px;
+    top: 250px;
+    z-index : 5;
+}
+#c6 {
+    left: 175px;
+    top: 325px;
+    z-index : 6;
+}
+#c7 {
+    left: 425px;
+    top: 225px;
+    z-index : 7;
+}
+#main, #info, #services, #services2, #location, #address {
+    display: none;
+}
+#c1, #c2, #c3, #c4, #c5, #c6, #c7, #main {
+    display: none;
+    position: absolute;
+    vertical-align: top;
+}
+.olive {
+    background-color: #9AA66D;
+}
+.grey {
+    background-color: #58594C;
+}
+.yellow {
+    background-color: #EFF29B;
+}
+.cream {
+    background-color: #F2F1DF;
+}
+.lgrey {
+    background-color: #BFBCAA;
+    color: #FFFFFF;
+}
+.tan {
+    background-color: #CCCC99;
+}
