@@ -21,9 +21,11 @@ function show7() {
     $('#c7').fadeIn(1500, showContent);
 }
 function showContent() {
-    $('#content > img').fadeTo(1500, .1);
-    $('#main').fadeTo(1, .9);
-    $('#main').fadeIn(1500, showInfo);
+    setTimeout(function (){
+        $('#content > img').fadeTo(1000, .1);
+        $('#main').fadeTo(1, .9);
+        $('#main').fadeIn(1500, showInfo);
+    }, 1000);
 }
 function showInfo() {
     $('#info').fadeIn(1500, showServices);
