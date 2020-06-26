@@ -23,7 +23,7 @@ function show7() {
 function showContent() {
     setTimeout(function (){
         $('#content > img').fadeTo(1000, .1);
-        $('#main').fadeTo(1, .9);
+        $('#main').fadeTo(1, .6);
         $('#main').fadeIn(1500, showInfo);
     }, 1000);
 }
