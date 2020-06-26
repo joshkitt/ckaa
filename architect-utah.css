@@ -7,10 +7,10 @@ body {
     overflow: scroll;
 }
 a:hover {
-    color: #FFFFFF;
+    color: #67a;
 }
 a {
-    color: #67a;
+    color: #FFFFFF;
 }
 #loading {
     margin: 100px 400px 400px 400px;
